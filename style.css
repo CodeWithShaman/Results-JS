@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%); */
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 350px;
+    height: 450px;
+    filter: drop-shadow(5px 5px 15px rgb(0, 0, 0));
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    color: blanchedalmond;
+    align-items: center;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+
+}
+.container button{
+    padding: 8px 40px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(209, 212, 212);
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    margin-left: 80px;
+    border-radius: 5px;
+
+}
+.container #firstName{
+    /* color: #00d4ff; */
+    background-color: rgba(254, 254, 254, 0.516);
+    outline: none;
+    /* height: 20px; */
+    border-radius: 4px;
+}
+.container #rollNo{
+    /* color: #00d4ff; */
+    background-color: rgba(254, 254, 254, 0.516);
+    outline: none;
+    border-radius: 4px;
+}
+.container #english{
+    /* color: #00d4ff; */
+    background-color: rgba(254, 254, 254, 0.516);
+    outline: none;
+    border-radius: 4px;
+}
+.container #math{
+    /* color: #00d4ff; */
+    background-color: rgba(254, 254, 254, 0.516);
+    outline: none;
+    border-radius: 4px;
+}
+.container #science{
+    /* color: #00d4ff; */
+    background-color: rgba(254, 254, 254, 0.516);
+    outline: none;
+    border-radius: 4px;
+}
+.container #physics{
+    /* color: #00d4ff; */
+    background-color: rgba(254, 254, 254, 0.516);
+    outline: none;
+    border-radius: 4px;
+}
+.container #chemistry{
+    /* color: #00d4ff; */
+    background-color: rgba(254, 254, 254, 0.516);
+    outline: none;
+    border-radius: 4px;
+}
